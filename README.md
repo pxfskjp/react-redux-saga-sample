@@ -1,8 +1,4 @@
-# redux-saga-oauth
-
-[![NPM](https://img.shields.io/npm/v/@simpleweb/redux-saga-oauth.svg)](https://www.npmjs.com/package/@simpleweb/redux-saga-oauth)
-[![Build Status](https://semaphoreci.com/api/v1/projects/80e0a632-ac8f-4dc6-bfca-10565b56f6f8/1319097/badge.svg)](https://semaphoreci.com/simpleweb/redux-saga-oauth)
-
+# redux-saga
 👮 An OAuth module for Redux Saga powered applications
 
 ## What does it do?
@@ -226,29 +222,4 @@ function* MakeRequest() {
 }
 ```
 
-## Development
-
-You can test this locally by installing it’s dependencies and linking it as a
-local module.
-
-```
-git clone git@github.com:simpleweb/redux-saga-oauth.git
-cd redux-saga-oauth
-yarn && yarn link
-```
-
-## Deployment
-
-Increment the `version` inside of the `package.json` and create a commit stating
-a new version has been created, e.g. "🚀 Released 1.0.0".
-
-On Github,
-[draft a new release](https://github.com/simpleweb/redux-saga-oauth/releases/new)
-, set the version and release title to "vX.X.X" (the version number that you
-want to release) and add a description of the new release.
-
-Now run `yarn publish --access=public` to deploy the code to npm.
-
 ## TL;DR
-
-![](https://media.giphy.com/media/12OIWdzFhisgww/giphy.gif)
