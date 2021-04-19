@@ -1,5 +1,5 @@
 # redux-saga
-👮 An OAuth module for Redux Saga powered applications
+An OAuth module for Redux Saga powered applications
 
 ## What does it do?
 
